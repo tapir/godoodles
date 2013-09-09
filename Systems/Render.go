@@ -6,13 +6,13 @@ type RenderSystem struct {
 
 func (r *RenderSystem) Update(e *Entity, userData interface{}) {
 	sprite := e.GetComponent("Sprite")
-	spriteSheet := e.GetComponent("SpriteSheet")
+	animatedSprite := e.GetComponent("AnimatedSprite")
 
 	if sprite != nil {
 
 	}
 
-	if spriteSheet != nil {
+	if animatedSprite != nil {
 		
 	}
 }
